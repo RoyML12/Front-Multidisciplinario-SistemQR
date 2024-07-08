@@ -1,0 +1,74 @@
+.contenedorGeneral {
+  background-color: white;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 1rem;
+  box-shadow: 0px 8px 45px 0px rgba(0, 0, 0, 0.1);
+  display: none;
+}
+
+.botones a {
+  background-color: #cecece;
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  width: 55px;
+}
+
+.botones a:hover {
+  background-color: #668fcb;
+  color: white;
+}
+
+.botones {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.botonesIzquierdos {
+  display: flex;
+  gap: 1rem;
+}
+
+.botones i {
+  font-size: 1.1rem;
+}
+
+.botonCerrar {
+  background-color: rgb(221, 51, 51);
+  border-radius: 5px;
+  border: none;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: all ease 0.5s;
+  width: 55px;
+  height: 48px;
+}
+
+.botonCerrar i {
+  font-size: 2rem;
+  color: rgb(255, 0, 0);
+}
+
+.botonCerrar:hover,
+.botonCerrar i:hover {
+  background: #b41818;
+  color: white;
+}
+
+.logout {
+  color: rgb(255, 255, 255);
+  transform: rotate(180deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 1200px) {
+  .contenedorGeneral {
+    display: block;
+  }
+}

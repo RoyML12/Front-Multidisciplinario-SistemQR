@@ -1,0 +1,105 @@
+.imagen {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.nombre {
+  color: #000000;
+  font-family: Roboto;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+}
+
+.estado {
+  color: #4cb83b;
+  font-family: Roboto;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  background-color: #c7ffbe;
+  padding: 5px;
+  border-radius: 20px;
+}
+
+.superior {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card {
+  width: 100%;
+  background-color: white;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 22px 3px rgba(0, 0, 0, 0.08);
+  cursor: pointer;
+  transition: all ease 0.5s;
+}
+
+.card:hover {
+  transform:  translateY(-5px);
+}
+
+.capsula {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.capsula2 h3 {
+  color: #b9b3b3;
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 1rem;
+  font-weight: lighter;
+  line-height: normal;
+}
+
+.inferior {
+  display: flex;
+  margin-top: 10px;
+  gap: 10px;
+}
+.contHora {
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.contHora h3 {
+  color: #7c7777;
+  font-family: Roboto;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #29a7d1 #ffffff;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #29a7d1;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+  }

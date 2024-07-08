@@ -1,0 +1,92 @@
+.contenedorBarraLateral {
+  position: absolute;
+  top: 0;
+  background-color: white;
+  height: 100%;
+  text-align: center;
+  width: 5%;
+  max-width: 50px;
+  min-width: fit-content;
+  box-shadow: 0px 0px 41px 0px rgba(0, 0, 0, 0.15);
+}
+.textoEmply {
+  color: #668fcb;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.navegacionLateral {
+  margin-top: 50%;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  height: 90%;
+}
+
+.navegacionLateral a {
+  background-color: #cecece;
+  height: 50px;
+  width: 50px;
+  margin: 15px;
+  line-height: 50px;
+  border-radius: 5px;
+}
+
+.navegacionLateral a:hover,
+.ultimoEnlace:hover {
+  background-color: #668fcb;
+  color: white;
+}
+
+.navegacionLateral {
+  transition: all ease 0.5s;
+}
+
+.botonesArriba {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.botonCerrar {
+  background-color: rgb(221, 51, 51);
+  border-radius: 5px;
+  border: none;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: all ease 0.5s;
+  width: 50px;
+  height: 50px;
+}
+
+.botonCerrar i {
+  font-size: 2rem;
+  color: rgb(255, 0, 0);
+}
+
+.botonCerrar:hover,
+.botonCerrar i:hover {
+  background: #b41818;
+  color: white;
+}
+
+.logout {
+  color: rgb(255, 255, 255);
+  transform: rotate(180deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 1200px) {
+  .contenedorBarraLateral {
+    display: none;
+  }
+}

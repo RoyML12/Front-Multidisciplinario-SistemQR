@@ -1,0 +1,99 @@
+.fondo {
+  background-color: rgba(0, 0, 0, 0.591);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contenedor {
+  background-color: white;
+  width: 30%;
+  box-sizing: border-box;
+  padding: 1rem;
+
+  border-radius: 10px;
+  box-shadow: 0px 0px 31px 0px rgba(0, 0, 0, 0.45);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid rgb(210, 208, 208);
+  padding-bottom: 10px;
+}
+
+.nombreEmpleado {
+  color: #6c6868;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.botones button {
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  color: white;
+  font-weight: bold;
+  transition: all ease 0.2s;
+}
+
+.botones {
+  display: flex;
+  gap: 5px;
+}
+
+.botonCerrar {
+  background: #da6464;
+}
+
+.botonEditar {
+  background: #80a8d8;
+}
+
+.forms {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1rem;
+  gap: 5px;
+}
+
+.grupo1 {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.forms input,
+.select {
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background: whitesmoke;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.select {
+  width: 50%;
+}
+
+.botonEditar:hover {
+  background: #71a0d8;
+  transform: scale(1.1);
+}
+
+.botonCerrar:hover {
+  background: #ba5252;
+  transform: scale(1.1);
+}
